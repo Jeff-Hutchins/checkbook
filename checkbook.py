@@ -12,7 +12,7 @@
 
 def current_balance():
     '''
-    Opens and reads checkboo_storage.txt, takes in all transactions, changes them to a float, and outputs the sum.
+    Opens and reads checkbook_storage.txt, takes in all transactions, changes them to a float, and outputs the sum.
     The sum being the current balance for the account.
     '''
     f = open("checkbook_storage.txt","r")
